@@ -52,12 +52,26 @@
   </div>
 
   <!-- Contact -->
-  <div class="section bg-light" id="contact">
-    <h2>📫 Contact Me</h2>
-    <p>Email: <a href="mailto:jpmbavya2020@gmail.com">jpmbavya2020@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/bavyasrim11" target="_blank">linkedin.com/in/bavyasrim11</a></p>
-    <p>GitHub: <a href="https://github.com/BAVYASRIM" target="_blank">github.com/BAVYASRIM</a></p>
-  </div>
+  <!-- Contact Section -->
+<div class="section bg-light" id="contact">
+  <h2>📫 Contact Me</h2>
+  <form action="https://formspree.io/f/mwkglrjb" method="POST" class="p-3 shadow rounded bg-white" style="max-width: 600px; margin: auto;">
+    <div class="mb-3">
+      <label for="name" class="form-label">Your Name</label>
+      <input type="text" class="form-control" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Your Email</label>
+      <input type="email" class="form-control" name="_replyto" required>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Your Message</label>
+      <textarea class="form-control" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</div>
+
 
   <footer>
     <p>© 2025 Bavyasri M</p>
